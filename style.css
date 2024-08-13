@@ -1,0 +1,59 @@
+body{
+    background-color: hsl(47, 88%, 63%)
+}
+.card{
+   border-radius: 10px;
+    max-width: 400px;
+    padding-left: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin:20px auto;   
+    padding:20px;
+    background-color: hsl(0, 0%, 100%);
+}
+.card img{
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+.card span{
+    background-color: rgb(214, 214, 0);
+    color:#FFFFFF;
+    padding:5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+   
+}
+.card h5{
+    color:hsl(0, 0%, 42%)
+}
+.card p{
+    line-height: 1.5;
+}
+.author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .author img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    padding-top: 20px;
+  }
+.author h6{
+    font-size: 14px;
+    padding-right: 40px;
+    color:hsl(0, 0%, 7%)
+
+}
+.attribution {
+    font-size: 11px;
+    text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
